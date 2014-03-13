@@ -131,7 +131,7 @@ protected[stream] object JunctionStrategies {
 
 
   /**
-   * MergeN strategy for mergeN combinator. Please see [[scalaz.stream.merge.mergeN]] for more details.
+   * MergeN strategy for mergeN combinator. Please see scalaz.stream.merge.mergeN[A](Int) for more details.
    */
   def mergeN[A](max:Int):JunctionStrategy[Nothing,A,A] = {
 
